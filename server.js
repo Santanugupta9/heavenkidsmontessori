@@ -54,3 +54,18 @@ app.post('/api/book', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
+function toggleAboutFeatures() {
+const features = document.getElementById("expanded-features");
+const btnText = document.querySelector("#readMoreBtn span");
+const btnIcon = document.getElementById("btnIcon");
+
+if (features.classList.contains("hidden")) {
+features.classList.remove("hidden");
+btnText.textContent = "Show Less";
+btnIcon.classList.replace("fa-arrow-right", "fa-arrow-up");
+} else {
+features.classList.add("hidden");
+btnText.textContent = "Read More About Us";
+btnIcon.classList.replace("fa-arrow-up", "fa-arrow-right");
+}
+}

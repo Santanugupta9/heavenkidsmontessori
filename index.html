@@ -74,6 +74,11 @@
         .img-zoom-container:hover img {
             transform: scale(1.1);
         }
+.auto-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
         /* Floating Animation */
         @keyframes float {
@@ -205,7 +210,7 @@
                 <!-- Hero Image -->
                 <div class="md:w-1/2 relative perspective-1000">
                     <div class="relative z-10 transform rotate-2 hover:rotate-0 transition duration-500">
-                        <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                        <img src="6.jpg" 
                              alt="Happy Child" 
                              class="rounded-[2.5rem] shadow-2xl border-8 border-white w-full object-cover h-[500px] animate-float">
                         
@@ -237,7 +242,7 @@
                             <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" class="rounded-2xl w-full h-40 object-cover shadow-lg transform hover:scale-105 transition">
                         </div>
                         <div class="space-y-4">
-                            <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" class="rounded-2xl w-full h-56 object-cover shadow-lg transform hover:scale-105 transition">
+                            <img src="https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/583340362_122220905810254107_923182071256251839_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JXMSVUFNULQQ7kNvwGnlupX&_nc_oc=Adl5-zdfRceo1lFEbwh4m7tegmWAhMgDRUXO2CtCMs9y15c6aUi33dbEGp_7iTu0ka4&_nc_zt=23&_nc_ht=scontent.fktm17-1.fna&_nc_gid=48IVCRA9cnRqdsglrF-lOQ&oh=00_Afm2Cz_FJ4rZnHyXWR50koF8QeqjsHxAIiLLzOjPf6WFAQ&oe=694873E3" class="rounded-2xl w-full h-56 object-cover shadow-lg transform hover:scale-105 transition">
                             <div class="bg-brand-secondary p-6 rounded-2xl text-white text-center shadow-lg">
                                 <div class="text-3xl font-heading font-bold">12+</div>
                                 <div class="text-sm opacity-90">Years of Experience</div>
@@ -267,16 +272,16 @@
                             </div>
                         </div>
                        <div class="mb-6">
-    <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-yellow-50 transition mb-4">
-        <div class="w-12 h-12 rounded-xl bg-yellow-100 border-2 border-yellow-200 flex items-center justify-center text-yellow-500 text-xl shrink-0">
-            <i class="fa-solid fa-smile"></i>
-        </div>
-        <div>
-            <h4 class="font-bold text-gray-800">Happy Environment</h4>
-            <p class="text-sm text-gray-500 mt-1">Joyful spaces for kids.</p>
-        </div>
-    </div>
-</div>
+                                <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-yellow-50 transition mb-4">
+                                    <div class="w-12 h-12 rounded-xl bg-yellow-100 border-2 border-yellow-200 flex items-center justify-center text-yellow-500 text-xl shrink-0">
+                                        <i class="fa-solid fa-smile"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-gray-800">Happy Environment</h4>
+                                        <p class="text-sm text-gray-500 mt-1">Joyful spaces for kids.</p>
+                                    </div>
+                                </div>
+                        </div>
 
 <button onclick="toggleAboutFeatures()" id="readMoreBtn" class="inline-flex items-center gap-2 text-yellow-600 font-bold hover:gap-4 transition-all cursor-pointer mb-8">
     <span>Read More About Us</span> 
@@ -436,7 +441,7 @@
     </div>
 
 </div>
-     </div>
+</div>
             </div>
         </div>
     </section>
@@ -460,7 +465,7 @@
                 <!-- Class Card 1 -->
                 <div class="bg-white rounded-3xl p-4 shadow-soft hover:shadow-xl transition duration-300 group">
                     <div class="h-56 overflow-hidden rounded-2xl relative">
-                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                        <img src="https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/567350882_122216833844254107_3464281904312290377_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=4SSbfxrFgkYQ7kNvwFMaXNQ&_nc_oc=AdmQqgOKYxhvcx24hnUUFGafzKn7x8ZborqRrMOZkH66BqkuepbuOMhhd64J0BgBL4s&_nc_zt=23&_nc_ht=scontent.fktm17-1.fna&_nc_gid=JYQbRGeUxiaSw3OPbbAYDg&oh=00_AfnomNxE5-sJ5zvRsGxoggeF-vq7bjR8qHeWYfA5h8v62w&oe=69488F6E" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                         <div class="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-lg text-xs font-bold text-brand-primary shadow-sm">
                             3-5 Years
                         </div>
@@ -480,7 +485,7 @@
                 <!-- Class Card 2 -->
                 <div class="bg-white rounded-3xl p-4 shadow-soft hover:shadow-xl transition duration-300 group mt-0 md:-mt-8">
                     <div class="h-56 overflow-hidden rounded-2xl relative">
-                        <img src="https://images.unsplash.com/photo-1555982105-d25af41d9688?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                        <img src="https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/556481365_122214092504254107_394364785624458414_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XbpwhULuCT0Q7kNvwGPxs88&_nc_oc=AdlPdgB-1rMTrgQcmU-A0dRt2xovvsNCw6J7lvDCAiDU0hZ769TNzlxWZ-_n6U-ahZ4&_nc_zt=23&_nc_ht=scontent.fktm17-1.fna&_nc_gid=seR1nqGKXP3R214uiDwvng&oh=00_AflTdu2wPJS5bgpJKAmX7n5ncjlcAyGBP40b94aQeN6RjA&oe=694896BB" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                          <div class="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-lg text-xs font-bold text-brand-accent shadow-sm">
                             2-3 Years
                         </div>
@@ -500,7 +505,7 @@
                 <!-- Class Card 3 -->
                 <div class="bg-white rounded-3xl p-4 shadow-soft hover:shadow-xl transition duration-300 group">
                     <div class="h-56 overflow-hidden rounded-2xl relative">
-                        <img src="https://images.unsplash.com/photo-1503919545889-aef636e10ad4?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                        <img src="https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/518310456_122203532600254107_6844417065179754380_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YFcwB9j5DjkQ7kNvwEK2UuH&_nc_oc=AdlgSWJyccc8IN0SeuIMTg0B1HLoRhTeJNxuaQ5tr4iDQdLLcqQnI74wUy6R6VvsFP4&_nc_zt=23&_nc_ht=scontent.fktm17-1.fna&_nc_gid=eUBz-W0Vytu9_OS-7ZH4XA&oh=00_Afmq46LrjzYUzV97eKg50Q1xk1z5VZxw-vaFOs7FF-1tmw&oe=69486603" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                          <div class="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-lg text-xs font-bold text-brand-secondary shadow-sm">
                             2-4 Years
                         </div>
@@ -540,7 +545,7 @@
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <!-- Gallery Item 1 -->
                 <div class="img-zoom-container h-72 md:col-span-2 relative group cursor-pointer">
-                    <img src="6.jpg" alt="Gallery 1" class="w-full h-full object-cover">
+                    <img src="https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/532197021_122208299792254107_6194130575432389339_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=cOK0Tg7nqD4Q7kNvwFyAhOR&_nc_oc=AdnhCkAQTQxf8ob9I8LlbDn1nEu1Eb06c4-TJyMO3RKVkkpLSeXsoawtgw5V_FzPw5E&_nc_zt=23&_nc_ht=scontent.fktm17-1.fna&_nc_gid=7_lM09Q8GyY19KusQsiRJg&oh=00_Afl6-oyDD5welAIOSzoT8lXZTPzdRo7kwhle-FqCvjUvtA&oe=69486D35" alt="Gallery 1" class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition"></div>
                 </div>
                 <!-- Gallery Item 2 -->
@@ -792,127 +797,8 @@
 
     <!-- JavaScript -->
     
-   <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
-    import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-    import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
-    // ADDED: Import getAnalytics from the correct Firebase module URL (assuming you want to use the same v11.6.1)
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-analytics.js"; 
-
-    // 1. Initialize Firebase
-
-    // REPLACED: Using your provided config directly instead of __firebase_config and __app_id
-    const firebaseConfig = {
-        apiKey: "AIzaSyB21tyv8V_sisZSRPxWh5lEqVhLwGrCw-I",
-        authDomain: "heaven-kids.firebaseapp.com",
-        databaseURL: "https://heaven-kids-default-rtdb.firebaseio.com",
-        projectId: "heaven-kids",
-        storageBucket: "heaven-kids.firebasestorage.app",
-        messagingSenderId: "103654031188",
-        appId: "1:103654031188:web:838615fd805bf3417412c1",
-        measurementId: "G-FZPS59H1PW"
-    };
+   <script src="server.js">
     
-    // NOTE: The appId variable is no longer implicitly defined by __app_id. If you need it elsewhere, you must define it.
-    const appId = firebaseConfig.appId;
-
-    const app = initializeApp(firebaseConfig);
-    const auth = getAuth(app);
-    const db = getFirestore(app);
-    
-    // ADDED: Initialize Firebase Analytics
-    const analytics = getAnalytics(app); 
-    
-    // 2. Authenticate User (Required for Database Access)
-    signInAnonymously(auth)
-        .then(() => {
-            console.log("Database connected successfully");
-        })
-        .catch((error) => {
-            console.error("Authentication failed:", error);
-        });
-
-    // 3. Handle Form Submission
-    const form = document.getElementById('bookingForm');
-    
-    if(form) {
-        form.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            
-            // Show loading state
-            const submitBtn = document.getElementById('submitBtn');
-            const originalBtnText = submitBtn.innerText;
-            submitBtn.innerText = "Booking...";
-            submitBtn.disabled = true;
-            submitBtn.classList.add('opacity-75');
-
-            // Get values
-            const parentName = document.getElementById('parentName').value;
-            const email = document.getElementById('email').value;
-            const childName = document.getElementById('childName').value;
-            const mobileNumber=document.getElementById('mobileNumber').value;
-            const program = document.getElementById('program').value;
-            const message = document.getElementById('message').value;
-
-            try {
-                // Check auth again just in case
-                if (!auth.currentUser) await signInAnonymously(auth);
-
-                // Save to Firestore Database
-                await addDoc(collection(db, 'artifacts', appId, 'public', 'data', 'bookings'), {
-                    parentName,
-                    email,
-                    childName,
-                    mobileNumber,
-                    program,
-                    message,
-                    timestamp: new Date().toISOString(),
-                    status: 'new'
-                });
-
-                // Success UI
-                document.getElementById('success-msg').classList.remove('hidden');
-                document.getElementById('error-msg').classList.add('hidden');
-                form.reset();
-
-            } catch (error) {
-                console.error("Error saving booking:", error);
-                document.getElementById('error-msg').classList.remove('hidden');
-            } finally {
-                // Reset button
-                submitBtn.innerText = originalBtnText;
-                submitBtn.disabled = false;
-                submitBtn.classList.remove('opacity-75');
-            }
-        });
-    }
-    
-    // Mobile Menu Toggle logic
-    const btn = document.getElementById('mobile-menu-btn');
-    const menu = document.getElementById('mobile-menu');
-
-    if(btn && menu) {
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-        });
-    }
-
-    // Sticky Navbar Effect
-    window.addEventListener('scroll', () => {
-        const navbar = document.getElementById('navbar');
-        if (navbar) {
-            if (window.scrollY > 50) {
-                navbar.classList.add('shadow-md');
-                navbar.classList.remove('py-3');
-                navbar.classList.add('py-2');
-            } else {
-                navbar.classList.remove('shadow-md');
-                navbar.classList.remove('py-2');
-                navbar.classList.add('py-3');
-            }
-        }
-    });
 </script>
 </body>
 </html>
